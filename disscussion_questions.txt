@@ -1,0 +1,44 @@
+Runtime
+
+1. We would determine the workload by considering the worst case -- here the worst case
+is that we would need to look at every animal cracker to find an elephant. Therefore,
+the workload would be equivalent to the number of carckers in the box.
+
+2. O(1), O(log n), O(n), O(n log n), O(n^2), O(2^n)
+
+Stacks and Queues
+
+1. (1) Stack (2) Queue (3) Stack
+
+2. Creating a to-do list (ordered by priority) & processing user requests.
+
+3. Reversing a word & the "undo" function of a text editor.
+
+Linked Lists
+
+1. The nodes are the boxes containing data and next attributes. The data is a string 
+shown inside each node -- 'Apple', 'Berry' & 'Cherry' in this example. The head is an 
+attribute of a linked list which references the first node in the list, the node 
+containing 'apple' in this case. This linked list does not have a tail attribute.
+
+2. Nodes in a singly-linked list contain one attribute that references the next node
+in the list. Nodes in a doubly-linked list contain two attributes -- one that references
+the previous node and one that referencse the next node. This allows traversal of a 
+doubly-linked list in either direction.
+
+3. The tail attribute of a linked list references the last node in the list. If we 
+keep track of the tail as an attribute it is faster to append because we know exactly 
+where the end of the list is and do not need to traverse the list to find the last node.
+
+Trees
+
+1. food, Italian, Indian, Mexican, lasagna, pizza, tikka masala, saag, burritos.
+
+2. food, Mexican, enchiladas, tacos, burritos, Indian, saag, tikka masala, Italian, 
+pizza, Sicilian, New York-style, Chicago-style.
+
+3. Nodes of a binary search tree have a maximum of two children -- a left and right child.
+Binary trees also rule for arrangement, which makes searching faster because we know
+what direction to seach through tree (left or right).
+
+
